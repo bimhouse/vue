@@ -14,11 +14,11 @@ export default {
     computed: {
         times () {
             return this.count > 1
-            ? `times`
-            : `time`
+            ? 'times'
+            : 'time'
         },
         text () {
-            return `I have been clicked $(this.count) $(this.times)`
+            return `I have been clicked ${this.count} ${this.times}`
         }
     },
     methods: {
