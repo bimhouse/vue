@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import DummyButton from './components/DummyButton.vue'
 </script>
 
 <template>
@@ -14,7 +15,10 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <main>
     <TheWelcome />
-  </main>
+    <DummyButton />
+    <DummyButton />
+    <DummyButton />
+</main>
 </template>
 
 <style scoped>
